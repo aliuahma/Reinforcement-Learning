@@ -58,16 +58,17 @@ println("large policy")
 
 
 """
+julia> include("src/main.jl")
 small policy
 Training on data...
 Training complete!
-  5.442193 seconds (121.08 M allocations: 2.110 GiB, 6.96% gc time, 0.99% compilation time)
+  6.725500 seconds (121.08 M allocations: 2.110 GiB, 6.37% gc time, 0.94% compilation time)
 medium policy
 Training on data...
 Training complete!
- 11.510593 seconds (324.31 M allocations: 5.599 GiB, 5.18% gc time)
+112.866150 seconds (3.20 G allocations: 55.139 GiB, 5.36% gc time)
 large policy
 Training on data...
 Training complete!
- 11.084251 seconds (332.05 M allocations: 5.920 GiB, 4.92% gc time)
+ 11.038448 seconds (332.05 M allocations: 5.920 GiB, 4.89% gc time)
 """
